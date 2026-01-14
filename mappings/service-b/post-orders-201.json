@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/orders",
+    "headers": {
+      "Content-Type": {
+        "contains": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.customerId"
+      },
+      {
+        "matchesJsonPath": "$.items"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "service-b/post-orders-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

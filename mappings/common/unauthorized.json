@@ -1,0 +1,14 @@
+{
+  "priority": 7,
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": ".*"
+  },
+  "response": {
+    "status": 401,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "bodyFileName": "common/unauthorized.json"
+  }
+}

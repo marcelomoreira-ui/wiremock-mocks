@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/orders/.*",
+    "headers": {
+      "Content-Type": {
+        "contains": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.status"
+      }
+    ]
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "service-b/put-orders-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "error": "unauthorized",
+  "message": "Authentication credentials were missing or invalid.",
+  "timestamp": "{{now format='yyyy-MM-dd HH:mm:ss'}}"
+}

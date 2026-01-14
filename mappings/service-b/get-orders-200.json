@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/orders/123"
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "service-b/orders-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

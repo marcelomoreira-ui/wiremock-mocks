@@ -1,0 +1,38 @@
+{
+  "id": "123",
+  "name": {
+    "firstName": "Marcelo",
+    "lastName": "Moreira"
+  },
+  "email": "marcelo.moreira@email.com",
+  "document": {
+    "type": "CPF",
+    "number": "12345678900"
+  },
+  "status": "ACTIVE",
+  "createdAt": "2023-08-15T10:20:30Z",
+  "updatedAt": "2025-01-10T14:45:00Z",
+  "addresses": [
+    {
+      "id": "addr-1",
+      "street": "Rua das Flores",
+      "number": "100",
+      "complement": "Apto 202",
+      "neighborhood": "Centro",
+      "city": "São Paulo",
+      "state": "SP",
+      "postalCode": "01000-000",
+      "country": "BR",
+      "type": "RESIDENTIAL",
+      "isPrimary": true
+    }
+  ],
+  "phones": [
+    {
+      "type": "MOBILE",
+      "countryCode": "+55",
+      "number": "11999998888",
+      "isPrimary": true
+    }
+  ]
+}

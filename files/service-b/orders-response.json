@@ -1,0 +1,60 @@
+{
+  "customerId": "123",
+  "totalOrders": 2,
+  "orders": [
+    {
+      "orderId": "ORD-1001",
+      "status": "CREATED",
+      "createdAt": "2025-01-10T14:30:00Z",
+      "updatedAt": "2025-01-10T14:35:00Z",
+      "amount": {
+        "currency": "BRL",
+        "total": 199.90
+      },
+      "items": [
+        {
+          "productId": "PROD-001",
+          "productName": "Notebook Dell Inspiron",
+          "quantity": 1,
+          "unitPrice": 199.90
+        }
+      ],
+      "payment": {
+        "method": "CREDIT_CARD",
+        "status": "AUTHORIZED"
+      },
+      "delivery": {
+        "type": "HOME_DELIVERY",
+        "estimatedDate": "2025-01-15",
+        "addressId": "addr-1"
+      }
+    },
+    {
+      "orderId": "ORD-1002",
+      "status": "SHIPPED",
+      "createdAt": "2025-01-05T09:10:00Z",
+      "updatedAt": "2025-01-06T08:00:00Z",
+      "amount": {
+        "currency": "BRL",
+        "total": 89.90
+      },
+      "items": [
+        {
+          "productId": "PROD-010",
+          "productName": "Mouse Wireless",
+          "quantity": 1,
+          "unitPrice": 89.90
+        }
+      ],
+      "payment": {
+        "method": "PIX",
+        "status": "CONFIRMED"
+      },
+      "delivery": {
+        "type": "STORE_PICKUP",
+        "estimatedDate": "2025-01-07",
+        "storeId": "STORE-045"
+      }
+    }
+  ]
+}
