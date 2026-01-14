@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/customers/123",
+    "headers": {
+      "X-Customer-Status": {
+        "equalTo": "CANCELLED"
+      }
+    }
+  },
+  "response": {
+    "status": 200,
+    "bodyFileName": "service-a/customer-cancelled.json"
+  }
+}

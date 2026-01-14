@@ -1,0 +1,8 @@
+{
+  "orderId": "123",
+  "status": "CANCELLED",
+  "description": "Order was cancelled by the customer.",
+  "cancellationReason": "Customer request",
+  "amount": 250.75,
+  "currency": "BRL"
+}

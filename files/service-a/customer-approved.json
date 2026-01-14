@@ -1,0 +1,11 @@
+{
+  "orderId": "123",
+  "status": "APPROVED",
+  "description": "Order approved successfully.",
+  "amount": 250.75,
+  "currency": "BRL",
+  "customer": {
+    "id": "987",
+    "name": "XXXX Silva"
+  }
+}
