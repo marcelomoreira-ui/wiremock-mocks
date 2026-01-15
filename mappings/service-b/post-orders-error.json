@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/orders",
+    "headers": {
+      "Content-Type": {
+        "contains": "application/json"
+      },
+    "X-Orders-Status": {
+        "equalTo": "ERROR"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.status"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "service-b/post-orders-error.json",
+    "fixedDelayMilliseconds": 8000,
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
