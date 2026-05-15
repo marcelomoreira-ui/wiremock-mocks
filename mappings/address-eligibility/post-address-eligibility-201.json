@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/flexbff/v1/customers/elegibilities",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{ \"postalCode\": \"01310930\" }",
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "address-eligibility/post-response-201.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
