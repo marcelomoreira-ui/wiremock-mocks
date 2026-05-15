@@ -10,6 +10,9 @@
   },
   "response": {
     "status": 200,
-    "bodyFileName": "service-a/customer-approved.json"
+    "bodyFileName": "service-a/customer-approved.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
   }
 }

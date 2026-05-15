@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/customers",
+    "headers": {
+      "Content-Type": {
+        "contains": "application/json"
+      }
+    },
+    "bodyPatterns": [
+      {
+        "matchesJsonPath": "$.name"
+      },
+      {
+        "matchesJsonPath": "$.status"
+      }
+    ]
+  },
+  "response": {
+    "status": 201,
+    "bodyFileName": "service-a/post-customers-response.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
