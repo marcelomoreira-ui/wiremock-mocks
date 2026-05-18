@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/flexbff/v1/customers/elegibilities",
+    "bodyPatterns": [
+      {
+        "equalToJson": "{ \"postalCode\": \"00000000\" }",
+        "ignoreExtraElements": true
+      }
+    ]
+  },
+  "response": {
+    "status": 400,
+    "bodyFileName": "address-eligibility/post-response-400-not-elegible.json",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

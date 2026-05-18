@@ -11,7 +11,7 @@
   },
   "response": {
     "status": 201,
-    "bodyFileName": "address-eligibility/post-response-201.json",
+    "bodyFileName": "address-eligibility/post-response-201-specific-cep.json",
     "headers": {
       "Content-Type": "application/json"
     }
