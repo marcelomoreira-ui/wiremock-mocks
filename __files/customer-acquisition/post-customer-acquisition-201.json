@@ -1,0 +1,24 @@
+{
+    "customerId": "001D100000uXepLIAS",
+    "token": {
+        "trusted": "6acjoPAZDA8748foVgqSVOk4gTpq",
+        "type": "Bearer"
+    },
+    "modalList": [
+        {
+            "type": "INFO",
+            "title": "Atenção",
+            "message": "Se o seu aparelho permite o uso de 2 ou mais chips, recomendamos que insira o chip da Claro na primeira posição.",
+            "ignorable": false,
+            "bottomButtons": [
+                {
+                    "type": "primary",
+                    "title": "Ok, entendi.",
+                    "screenAction": "BROADBAND_INSTALLATION"
+                }
+            ],
+            "closeButton": "SHOW"
+        }
+    ],
+    "direction": "BROADBAND_INSTALLATION"
+}

@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-05-18T15:08:00Z",
+  "status": 400,
+  "error": "Bad Request",
+  "code": "INVALID_ADDRESS_LOCATION",
+  "message": "O CEP informado não é atendido pela viabilidade técnica nesta região.",
+  "details": [
+    {
+      "field": "address.zipCode",
+      "value": "13098328",
+      "issue": "Cobertura indisponível para o endereço solicitado."
+    }
+  ],
+  "path": "/seu-endpoint/v1/contratacao"
+}

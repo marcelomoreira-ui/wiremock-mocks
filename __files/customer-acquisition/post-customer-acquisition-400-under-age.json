@@ -1,0 +1,15 @@
+{
+  "timestamp": "2026-05-18T15:35:43Z",
+  "status": 400,
+  "error": "Bad Request",
+  "code": "UNDERAGE_NOT_ALLOWED",
+  "message": "O cliente deve ter 18 anos ou mais para concluir a contratação.",
+  "details": [
+    {
+      "field": "user.birthDate",
+      "value": "2015-05-18",
+      "issue": "A idade calculada é inferior ao limite mínimo permitido."
+    }
+  ],
+  "path": "/ext-application/v3/customer/registration"
+}
