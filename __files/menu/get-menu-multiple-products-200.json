@@ -1,0 +1,182 @@
+{
+    "content": {
+        "title": "Menu",
+        "sections": [
+            {
+                "id": "MOBILE",
+                "title": "Móvel",
+                "subtitle": "5511913057901",
+                "paymentMethod": "CREDIT_CARD",
+                "items": [
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_my_plan.png",
+                        "title": "Meu plano Móvel",
+                        "action": "MY_PLAN",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_multiline.png",
+                        "title": "Adquirir mais uma linha Flex",
+                        "action": "MULTILINE",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_change_chip.png",
+                        "title": "Trocar meu chip",
+                        "action": "CHANGE_CHIP",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/chip_48_x_48.png",
+                        "title": "Reinstalar eSIM",
+                        "action": "SHOW_MODAL",
+                        "productId": 33620,
+                        "modal": {
+                            "title": "Atenção",
+                            "message": "",
+                            "buttonMessage": "",
+                            "action": "",
+                            "options": [
+                                {
+                                    "type": "SECONDARY",
+                                    "title": "Reinstalar eSIM no mesmo aparelho",
+                                    "action": "REINSTALL_ESIM"
+                                },
+                                {
+                                    "type": "PRIMARY",
+                                    "title": "Reinstalar eSIM em um aparelho diferente",
+                                    "action": "CHANGE_CHIP_ESIM"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_history.png",
+                        "title": "Histórico",
+                        "action": "HISTORIC",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_portability.png",
+                        "title": "Portabilidade",
+                        "action": "REQUEST_PORTABILITY",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_add_package.png",
+                        "title": "Pacotes Adicionais",
+                        "action": "ADDITIONAL_PACKAGES",
+                        "productId": 33620
+                    }
+                ]
+            },
+            {
+                "id": "GENERAL",
+                "title": "Geral",
+                "paymentMethod": "CREDIT_CARD",
+                "items": [
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_mgm.png",
+                        "title": "Indique e ganhe",
+                        "action": "MGM",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/wifi.png",
+                        "title": "Flex fibra",
+                        "action": "BUY_BROADBAND",
+                        "productId": 33620,
+                        "customFields": {
+                            "flowId": "iuse_banda_larga"
+                        }
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_my_data.png",
+                        "title": "Meus dados",
+                        "action": "PROFILE",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/sacola_48x48.png",
+                        "title": "Claro Clube",
+                        "action": "CLARO_CLUB",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_claro_tv.png",
+                        "title": "Claro TV+",
+                        "action": "DYNAMIC_SCREEN",
+                        "productId": 33620,
+                        "customFields": {
+                            "events": {
+                                "ga": {
+                                    "event": "select_content",
+                                    "parameters": [
+                                        {
+                                            "name": "item_id",
+                                            "value": "clique-menu:claro-tv"
+                                        },
+                                        {
+                                            "name": "content_type",
+                                            "value": "claro-flex:iuse:menu"
+                                        }
+                                    ]
+                                },
+                                "dynatrace": {
+                                    "event": "Touch",
+                                    "parameters": [
+                                        {
+                                            "name": "Touch",
+                                            "value": "ClaroTV+"
+                                        }
+                                    ]
+                                }
+                            },
+                            "dynamicScreenId": "CLARO_TV"
+                        }
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_customer_service.png",
+                        "title": "Atendimento",
+                        "action": "CUSTOMER_SERVICE",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_privacy.png",
+                        "title": "Privacidade",
+                        "action": "PRIVACY",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_notifications.png",
+                        "title": "Notificações",
+                        "action": "NOTIFICATIONS_PROTOCOLS",
+                        "productId": 33620
+                    },
+                    {
+                        "icon": "https://flex-images.claro.com.br/app/ic_menu_exit.png",
+                        "title": "Sair",
+                        "action": "SHOW_MODAL",
+                        "productId": 33620,
+                        "modal": {
+                            "title": "Atenção",
+                            "message": "Deseja sair do aplicativo?",
+                            "buttonMessage": "Sim",
+                            "action": "EXIT",
+                            "options": [
+                                {
+                                    "type": "PRIMARY",
+                                    "title": "Sim",
+                                    "action": "EXIT"
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        ],
+        "version": {
+            "title": "Claro Flex versão 7.71.01.7 (100)"
+        }
+    }
+}
