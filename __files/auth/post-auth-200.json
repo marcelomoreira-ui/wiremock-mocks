@@ -1,0 +1,92 @@
+{
+    "content": {
+        "step": "HOME",
+        "customer": {
+            "id": "7a2db353-0e42-4ec8-bf4a-c4f51e426bea",
+            "personType": "INDIVIDUAL",
+            "country": "BR",
+            "documents": [
+                {
+                    "id": 60547,
+                    "number": "87638475828",
+                    "type": "CPF",
+                    "createdAt": "2025-06-09T11:02:34"
+                }
+            ],
+            "addresses": [
+                {
+                    "id": 52435,
+                    "street": "Av. Paulista",
+                    "city": "São Paulo",
+                    "country": "BR",
+                    "number": "2001",
+                    "zipCode": "01311000",
+                    "district": "Bela Vista",
+                    "state": "SP",
+                    "name": "Av. Paulista",
+                    "customFields": {
+                        "dddNumber": "11",
+                        "ibgeUfId": "35",
+                        "ibgeCityId": "3550308"
+                    },
+                    "createdAt": "2025-06-09T11:02:34"
+                }
+            ],
+            "contacts": [
+                {
+                    "contactType": "EMAIL",
+                    "content": {
+                        "email": "87638475828@gmail.com"
+                    }
+                }
+            ],
+            "fullName": "Sentoumaru",
+            "birthDate": "1990-01-01",
+            "customFields": {
+                "x-platform-version": "6.0",
+                "x-platform": "iOS",
+                "x-app-version": "6.40.99"
+            },
+            "status": "ACTIVE",
+            "push": {
+                "userId": "75580503571"
+            },
+            "createdAt": "2025-06-09T11:02:34"
+        },
+        "products": [
+            {
+                "id": 30201,
+                "typeId": "4bd2f2c5-2a1d-4977-b50d-c858f9019a83",
+                "typeName": "Telefonia móvel",
+                "attributes": {
+                    "isEmployee": false,
+                    "coupon_code": "VIRAFLEX15",
+                    "ddd": "11",
+                    "appsflyerId": "1703184179153-2041092197566280502",
+                    "migrationType": "PRE_PAGO",
+                    "activationType": "MIGRATION",
+                    "imei": "6138abdc58901bd5",
+                    "storeFlow": "FALSE",
+                    "msisdn": "5511913610080",
+                    "chipSimDelivery": "FALSE",
+                    "activationChannel": "iOS,",
+                    "coupon_type": "DISCOUNT_MONEY"
+                },
+                "externalId": "JOIN-3e2da459-4af6-4398-9ad4-e0da7da44d44",
+                "foreignId": "2171547",
+                "foreignLabel": "5511913610080",
+                "activationDate": "2025-06-09T11:05:55",
+                "status": "ACTIVE",
+                "createdAt": "2025-06-09T11:05:37",
+                "states": [],
+                "displayOrder": 1,
+                "portabilityIntention": false,
+                "statusAPP": "ACTIVE"
+            }
+        ],
+        "additionalInformation": {
+            "SIM_PORTABILITY": false
+        },
+        "tp": "6acjYJkoWPKPG8FrhXeimgihtDvC"
+    }
+}
